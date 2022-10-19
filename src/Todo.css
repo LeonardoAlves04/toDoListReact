@@ -1,0 +1,123 @@
+/* Estilização do body  */
+body{
+background-color:#F0FFF0
+}
+
+
+/* Estilização do header, título e container*/
+.header{
+    display: flex;
+    align-items: center; 
+    }
+    
+.title{
+    margin-left:230px;
+    font-size: 50px;
+    }
+
+.container{
+    margin:auto;
+    max-width: 750px;
+}
+
+
+/* Estilização do botão (modal) */
+.headerButton{
+    margin: 15px ;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 25px;
+    background-color: #ADD8E6;
+  }
+
+
+/* Estilização dos botões de dentro do card (mark e delete) */
+button{
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* Estilização do botão dentro do form (para adicionar uma tarefa) */
+.addbutton{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+
+/* Ajustando o tamanho das imagens dos botões (mark e delete)*/
+img{
+    width: 30px;
+    height: 30px;
+}
+
+
+/* tirando o aspecto de lista das tarefas adicionadas */
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Ao concluir uma tarefa, adiciona-se um pequeno risco sobre ela */
+.done{
+    text-decoration: line-through;
+}
+
+
+/* Estilizando os cartões que contém as tarefas adicionadas */
+.item{
+    width: 80%; 
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    margin-left:60px;
+    background-color: white
+}
+
+.card{
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.4);
+}
+
+.deleteButton{
+    margin-left: 5px;
+}
+
+
+/* Estilização do modal (cardModal, input que é exibido e escondendo o display) */
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+    
+.cardModal{
+    padding: 15px;
+    background-color:#F8F8FF;
+    border-radius: 5px;
+}
+
+.hide {
+    display: none;
+}
+
