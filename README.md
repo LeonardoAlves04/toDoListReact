@@ -1,8 +1,11 @@
-Projeto de mais uma TodoList, porém em React dessa vez! Projeto que gostei bastante de fazer, já fiz utilizando JavaScript e gostei bastante de recriar com React. É uma lista de tarefas básica com funcionalidades como: adicionar, marcar como feito e excluir uma tarefa, segue algumas imagens do projeto:
+# To do list feito em React
+Projeto de mais uma TodoList, porém em React dessa vez! Projeto que gostei bastante de fazer, já fiz utilizando JavaScript (inclusive postado aqui no gh) e gostei bastante de refazer com React. É uma lista de tarefas básica com funcionalidades como: adicionar, marcar como feito e excluir uma tarefa.
 
-link para o github pages: https://leonardoalves04.github.io/toDoListReact/
+# Link para ver e testar o projeto: 
 
-Imagens do projeto:
+https://leonardoalves04.github.io/toDoListReact/
+
+# Imagens do projeto:
 
 Estado inicial:
 
