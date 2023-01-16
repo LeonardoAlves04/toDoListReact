@@ -3,7 +3,6 @@ body {
     background-color: #F0FFF0
 }
 
-
 /* Estilização do header, título e container*/
 .header {
     display: flex;
@@ -34,18 +33,19 @@ body {
 
 
 /* Estilização dos botões de dentro do card (mark e delete) */
-button {
+.doneButton,
+.deleteButton {
     border: none;
     background-color: white;
     cursor: pointer;
 }
-
 
 /* Estilização do botão dentro do form (para adicionar uma tarefa) */
 .addbutton {
     width: 150px;
     height: 35px;
     border-radius: 5px;
+    border: 2px 2px 2px;
 }
 
 
