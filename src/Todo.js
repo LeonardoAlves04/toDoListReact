@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import List from './components/List'
-import Item from './components/Item'
-import TodoForm from './components/TodoForm'
+import List from './pages/components/List'
+import Item from './pages/components/Item'
+import TodoForm from './pages/components/TodoForm'
 import './Todo.css'
-import Modal from './components/Modal'
+import Modal from './pages/components/Modal'
 
-const SAVED_ITEMS= "savedItems"
+const SAVED_ITEMS = "savedItems"
 
 function Todo() {
 
@@ -15,15 +15,15 @@ function Todo() {
 
     useEffect(() => {
         let savedItems = JSON.parse(localStorage.getItem(SAVED_ITEMS))
-        if(savedItems){
+        if (savedItems) {
             setItems(savedItems);
         }
-    },[])
+    }, [])
 
-    useEffect(()=>{
+    useEffect(() => {
         localStorage.setItem(SAVED_ITEMS, JSON.stringify(items))
-    },[items])
-    
+    }, [items])
+
     function onAddItem(text) {
         let item = new Item(text);
         setItems([...items, item])
@@ -45,12 +45,12 @@ function Todo() {
         setItems(updatedItems);
     }
 
-    function onHideModal(e){
+    function onHideModal(e) {
         setShowModal(false)
-        }
+    }
 
     return (<div className="container">
-        <header className='header'><h1 className='title'>Todo List </h1> <button onClick={()=>{setShowModal(true)}}className="headerButton">+</button> </header> 
+        <header className='header'><h1 className='title'>Todo List </h1> <button onClick={() => { setShowModal(true) }} className="headerButton">+</button> </header>
         <List onDone={onDone} onItemDeleted={onItemDeleted} items={items}></List>
         <Modal show={showModal} onHideModal={onHideModal}> <TodoForm onAddItem={onAddItem}></TodoForm></Modal>
     </div >)

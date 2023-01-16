@@ -19,7 +19,7 @@
     "lint": "next lint",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "gh-pages -d dist",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -39,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
