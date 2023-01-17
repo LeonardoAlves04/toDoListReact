@@ -2,6 +2,7 @@
   "name": "todo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://LeonardoAlves04.github.io/toDoListReact",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,13 +14,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "dev": "npm run dev",
+    "build": "npm run build",
+    "start": "npm start",
+    "lint": "npm lint",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

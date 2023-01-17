@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import List from './pages/components/List'
-import Item from './pages/components/Item'
-import TodoForm from './pages/components/TodoForm'
+import List from './components/List'
+import Item from './components/Item'
+import TodoForm from './components/TodoForm'
 import './Todo.css'
-import Modal from './pages/components/Modal'
+import Modal from './components/Modal'
 
 const SAVED_ITEMS = "savedItems"
 
