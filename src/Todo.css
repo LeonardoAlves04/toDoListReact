@@ -29,6 +29,7 @@ body {
     border: none;
     font-size: 25px;
     background-color: #ADD8E6;
+    cursor: pointer;
 }
 
 
@@ -45,7 +46,7 @@ body {
     width: 150px;
     height: 35px;
     border-radius: 5px;
-    border: 2px 2px 2px;
+    cursor: pointer;
 }
 
 
