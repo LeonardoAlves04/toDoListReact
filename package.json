@@ -14,10 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "npm run dev",
-    "build": "npm run build",
-    "start": "npm start",
-    "lint": "npm lint",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -43,5 +41,16 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoAlves04/toDoListReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoAlves04/toDoListReact/issues"
+  },
+  "description": ""
 }
